@@ -1,3 +1,55 @@
-a{
-    color:white
+/*
+
+MAIN
+*/
+
+html{
+    scroll-behavior: smooth;
 }
+
+#headerzinho{
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    background-color: rgb(233, 233, 233);
+}
+
+.cartoes{
+    box-shadow: 1cm rgb(10, 10, 10);
+    border-style: outset;
+    box-shadow: 1.3px 1.3px black;
+}
+
+.margin{
+    padding-top: 5% ;
+}
+
+section h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.tudo{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tudo  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.tudo h5{
+    color: #ff5510;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+#h{
+    margin-top: 22%;
+}
+
