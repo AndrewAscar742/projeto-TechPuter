@@ -1,10 +1,4 @@
-html{
-    scroll-behavior: smooth;
-}
-/*
 
-MAIN
-*/
 #headerzinho{
     position: fixed;
     width: 100%;
@@ -27,3 +21,28 @@ main{
 section h1{
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+
+.tudo{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tudo  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.tudo h5{
+    color: #ff5510;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+#h{
+    margin-top: 22%;
+}
+
