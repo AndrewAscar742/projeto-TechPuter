@@ -1,0 +1,32 @@
+
+.tudo{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tudo  a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.tudo h5{
+    color: #ff5510;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+.margin{
+    padding-top: 5%;
+}
+
+#h{
+    margin-top: 22%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0vw;
+    width: 100%;
+}
