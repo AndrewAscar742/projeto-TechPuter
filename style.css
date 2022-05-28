@@ -2,6 +2,14 @@
 #headerzinho{
     position: fixed;
     width: 100%;
+    z-index: 2;
+}
+
+.banner{
+    height: 10%;
+    width: 100%;
+    padding-top: 5%;
+    border-bottom: solid #ff5510;
 }
 
 main{
@@ -12,17 +20,30 @@ main{
     box-shadow: 1cm rgb(10, 10, 10);
     border-style: outset;
     box-shadow: 1.3px 1.3px black;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.cartoes:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .margin{
     padding-top: 5% ;
 }
 
+.cor{
+    color: black;
+}
+
+.carousel .item {
+    height: 300px;
+  }
+
 section h1{
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 
 .tudo{
     background-color: black;
