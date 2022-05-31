@@ -63,31 +63,40 @@
   
       </header>
       <main class="container">
-        <form class="row g-3 margin">
+        <form class="row g-3 needs-validation margin">
           <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
+            <label for="validationCustom01" class="form-label">Email</label>
+            <input type="email" class="form-control" id="validationCustom01" placeholder="example@hotmail.com" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
           </div>
           <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="inputPassword4">
+            <label for="validationCustom02" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
           </div>
           <div class="col-12 margin">
-            <label for="inputAddress" class="form-label">Endereço 1</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            <label for="validationCustom03" class="form-label">Endereço 1</label>
+            <input type="text" class="form-control" id="validationCustom03" placeholder="1234 Main St" required>
           </div>
           <div class="col-12 margin">
-            <label for="inputAddress2" class="form-label">Complemento</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            <label for="validationCustom04" class="form-label">Complemento</label>
+            <input type="text" class="form-control" id="validationCustom04" placeholder="Apartment, studio, or floor" required>
           </div>
           <div class="col-md-6 margin">
-            <label for="inputCity" class="form-label">Cidade</label>
-            <input type="text" class="form-control" id="inputCity">
+            <label for="validationCustom05" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
           </div>
           <div class="col-md-4 margin">
-            <label for="inputState" class="form-label">Estado</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose one...</option>
+            <label for="validationCustom06" class="form-label">Estado</label>
+            <select class="form-select" id="validationCustom06" required>
+              <option selected disabled value="">Choose one...</option>
               <option>Brasil</option>
               <option>Alemanha</option>
               <option>Bélgica</option>
@@ -95,17 +104,26 @@
               <option>Estados Unidos</option>
               <option>Rússia</option>
             </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
           </div>
           <div class="col-md-2 margin">
-            <label for="inputZip" class="form-label">CEP</label>
-            <input type="text" class="form-control" id="inputZip">
+            <label for="validationCustom07" class="form-label">CEP</label>
+            <input type="text" class="form-control" id="validationCustom07" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
           </div>
           <div class="col-12">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Check me out
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
               </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
             </div>
           </div>
           <div class="col-12">
