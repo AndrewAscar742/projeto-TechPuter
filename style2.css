@@ -29,4 +29,12 @@ footer{
     position: absolute;
     bottom: 0vw;
     width: 100%;
+}    
+#headerzinho{
+  position: fixed;
+  width: 100%;
+}
+
+.margin{
+  padding-top: 5%;
 }
