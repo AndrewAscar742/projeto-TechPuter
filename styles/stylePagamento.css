@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ebebeb;
+}
+
+h1{
+    margin: 80px;
+    margin-left: 32%;
+}
+
+h3{
+    margin: 0px 0 6px;
+    padding: 16px;
+    color: #ff5510;
+    margin-left: 12%
+}
+
+.conteiner{
+    margin: 0 82px;
+    padding: 0 15px;
+}
+
+.p{
+    margin: 0 0 10px;
+    margin-left: 14%;
+    margin-bottom: 2%;
+    width: 940px;
+}
+
+strong{
+    color: rgb(40 0 0);
+}
+
+footer{
+    margin-top: 5%;
+}
