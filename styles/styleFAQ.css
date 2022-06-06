@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+
+#headerzinho{
+    position: fixed;
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+body{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    background: #ebebeb;
+}
+
+.conteiner1{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.conteiner1 #h2{
+     color: #ff5510;
+     position: relative;
+     width: 23rem;
+}
+
+
+.conteiner1 #h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    width: 67px;
+    height: 2px;
+    margin-bottom: 1%;
+    background-color: #ff5510;
+}
+
+.accordion{
+    width: 100%;
+    padding: 0 5px;
+    border:  2px solid  #ff5510;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+
+
+.accordion .icon{
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    background: url() no-repeat 8px 7px  #ff5510;
+    border-radius: 50%;
+    float: left;
+    transition: all .5s ease-in;
+}
+
+.accordion #h5{
+    font-size: 22px;
+    margin: 0;
+    padding: 3px 0 0 0;
+    color: black;
+    font-weight: normal;
+}
+
+.painel{
+    padding: 0 15px;
+    border-left: 1px solid  #ff5510;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0;
+    transition: all .5s ease-in;
+}
+.parag{
+    font-size: 20px;
+    width: 700px;
+}
+
+@media(max-width:950px){
+    .parag{
+        width: 100%;
+    }
+}
+
+footer{
+    margin-top: 10%;
+}
